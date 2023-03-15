@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registrasi Masjid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Direktori Data Masjid Kota Depok</h1>
+
+        <div class="row">
+            <div class="col-md-8 p-0 col-8">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Data Masjid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regis-masjid.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-right col-4">
+                <a class="nav-link" href="#">Login</a>
+            </div>
+        </div>
+        </ul>
+    </div>
+
+    <div class="container mt-3 mb-2 p-0">
+        <div class="row py-0">
+            <div class="col-md-10"></div>
+            <div class="col px-0">
+                <ul class="nav p-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-0" href="#">></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Registrasi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row py-0">
+            <ul class="nav p-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Registrasi Masjid Anda</a>
+                </li>
+        </div>
+    </div>
+
+    <div class="container forms p-5 mt-4" style="border: 3px solid black; position: relative;">
+        <h6 class="px-2" style="position: absolute; top: -11px; left: 15px; background-color: white;">Form Registrasi Mesjid</h6>
+        <form class="form-group" action="/action_page.php">
+            <div class="row">
+                <div class="col-md-2 text-left m-auto">
+                    <label>Nama Masjid</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control"  id="text">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-2 text-left col-3 my-auto">
+                    <label>Kecamatan</label>
+                </div>
+                <div class="col-md-2 col-3">
+                    <div class="form-group">
+                        <select class="form-control" id="sel1">
+                          <option>Beji</option>
+                          <option>bojongsari</option>
+                          <option>cilodong</option>
+                          <option>cimanggis</option>
+                          <option>Cinere</option>
+                          <option>Cipayung</option>
+                          <option>Limo</option>
+                          <option>Pancoran Mas</option>
+                          <option>Sawangan</option>
+                          <option>Sukmajaya</option>
+                          <option>Tapos</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="col-md-2 text-left col-3 my-auto">
+                    <label>Kelurahan</label>
+                </div>
+                <div class="col-md-2 col-3">
+                    <div class="form-group">
+                        <select class="form-control" id="sel1">
+                          <option>Kukusan</option>
+                          <option>Beji</option>
+                          <option>Beji Timur</option>
+                          <option>Kemiri Muka</option>
+                          <option>Kukusan</option>
+                          <option>Pondok Cina</option>
+                          <option>Tanah Baru</option>
+                          <option>Bojongsari lama</option>
+                          <option>Bojongsari baru</option>
+                          <option>Curug</option>
+                          <option>Cimanggis</option>
+                          <option>Harjamukti</option>
+                          <option>Cilodong</option>
+                          <option>Jatimulya</option>
+                          <option>limo</option>
+                          <option>Krukut</option>
+                          <option>cipayumg</option>
+                          <option>cinere</option>
+                          <option>sukmajaya</option>
+                          <option>pasir gunung selatan</option>
+                          <option>tugu</option>
+                          <option>cisalak</option>
+                          <option>Pasir putih</option>
+                          <option>Mampang</option>
+                        </select>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 text-left my-auto">
+                    <label>Deskripsi Fasilitas</label>
+                </div>
+                <div class="col-md-10">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="2" id="comment"></textarea>
+                      </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 text-left m-auto">
+                    <label>Nama Pengurus DKM</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control"  id="text">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 text-left m-auto">
+                    <label>No HP/Telpon</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="number" class="form-control"  id="number">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 text-left m-auto">
+                    <label>Email</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="email" class="form-control"  id="email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 text-left m-auto">
+                    <label>Alamat Web</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control"  id="text">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 text-left m-auto">
+                    <label>Latitude,Longitude</label>
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control"  id="text">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-4 text-center">
+                    <button class="btn btn-primary" type="submit">Daftar</button>
+                    <button class="btn btn-danger" type="submit">Batal</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="container mt-4" style="border-top: 2px solid black;">
+        <div class="col-md-12 py-4">
+            Develop By Mahasiswa @STT-NF 2022
+        </div>
+    </div>
+
+</body>
+
+</html>
